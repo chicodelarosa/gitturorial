@@ -1,15 +1,8 @@
-name = "Dev2"
+name = "Dev1"
 
-age = 20
-
-def namemodifier(name):
-	newname = name + ' a string'
-
-	return newname
+age = 27
 
 def agemodifier(age):
-	newage = age - 2
+	return age - 2
 
-	return newage
-
-print(f"Hi my name is {namemodifier(name)}. My age is {agemodifier(age)}.")
+print(f"Hi my name is {name}. My age is {agemodifier(age)}.")
