@@ -2,4 +2,7 @@ name = "Dev1"
 
 age = 27
 
-print(f"Hi my name is {name}. My age is {age}.")
+def agemodifier(age):
+	return age - 2
+
+print(f"Hi my name is {name}. My age is {agemodifier(age)}.")
