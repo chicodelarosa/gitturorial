@@ -7,4 +7,9 @@ def namemodifier(name):
 
 	return newname
 
-print(f"Hi my name is {namemodifier(name)}. My age is {age}.")
+def agemodifier(age):
+	newage = age - 2
+
+	return newage
+
+print(f"Hi my name is {namemodifier(name)}. My age is {agemodifier(age)}.")
